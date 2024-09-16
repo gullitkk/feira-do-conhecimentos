@@ -178,6 +178,7 @@ header .navegacao li a:hover{
     font-size: 5rem;
     margin: 7rem 0 ;
     text-align: center;
+    background-color: rgba(150, 150, 150, 0.805);
 }
 
 #contatos address{
@@ -198,6 +199,3 @@ footer{
     text-align: center;
 }
 /* fim di footer */
-.ex {
-    background-color:rgba(150, 150, 150, 0.805) ;
-}
