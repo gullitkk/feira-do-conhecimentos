@@ -178,7 +178,7 @@ header .navegacao li a:hover{
     font-size: 5rem;
     margin: 7rem 0 ;
     text-align: center;
-    margin color: rgb(52, 52, 52);
+
 }
 
 #contatos address{
@@ -199,3 +199,6 @@ footer{
     text-align: center;
 }
 /* fim di footer */
+.ex {
+    margin-block: color rgb(52, 52, 52);;
+}
