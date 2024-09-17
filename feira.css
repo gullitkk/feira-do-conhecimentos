@@ -180,7 +180,7 @@ header .navegacao li a:hover{
     flex-direction: column;
     
 }
-#contatos h1{    
+.contatos h1{    
     font-size: 5rem;
     margin: 7rem 0 ;
     text-align: center;
