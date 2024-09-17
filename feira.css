@@ -201,4 +201,8 @@ footer{
 }
 /* fim di footer */
  
-@media screen (max-width: 1300px)
+@media screen (max-width: 1300px) {
+    .flex {
+        flex-direction: column-reverse;
+    }
+}
