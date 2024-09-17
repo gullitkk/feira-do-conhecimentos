@@ -95,6 +95,11 @@ header .navegacao li a:hover{
     flex-direction: column;
     align-items: center;
 }
+.cursos h1 {
+    font-size: 5rem;
+    margin: 7rem 0 ;
+    text-align: center;
+}
 .cursos h2{
     font-size: 5rem;
     margin: 10rem 0 0 0;
