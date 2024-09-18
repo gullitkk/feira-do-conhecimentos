@@ -22,6 +22,9 @@ html{
 .padding{
     padding-top: 10rem;
 }
+body{
+    margin: 0;
+}
 /* começo do header */
 header{
     display: flex;
