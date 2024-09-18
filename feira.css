@@ -19,6 +19,7 @@ html{
 }
 .container{
     max-width: 160rem ;
+    margin: auto;
 }
 .padding{
     padding-top: 10rem;
