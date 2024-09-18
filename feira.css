@@ -19,7 +19,7 @@ html{
 }
 .container{
     max-width: 160rem ;
-    margin: auto;
+    margin: 0;
 }
 .padding{
     padding-top: 10rem;
@@ -115,7 +115,7 @@ header .navegacao li a:hover{
     text-align: center;
 }
 .cursos-conteiner{
-    margin: 0;
+    margin: auto;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -189,6 +189,7 @@ header .navegacao li a:hover{
     padding: 1px;
     display: flex;
     flex-direction: column;
+    margin: 0;
     
 }
 .contatos h1{    
