@@ -25,9 +25,10 @@ html{
 /* começo do header */
 header{
     display: flex;
-    padding: 2.5rem;
+    padding: 1.5rem;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .header-position{
@@ -60,9 +61,10 @@ header .navegacao li a:hover{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .hero-bunner img{
-    min-height: calc(100vh - 20rem);
+    max-height: calc(100vh - 9.8rem);
     }
 .hero-bunner__text h1{
     font-size: 6rem;
@@ -94,6 +96,7 @@ header .navegacao li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .cursos h1 {
     font-size: 5rem;
@@ -110,6 +113,7 @@ header .navegacao li a:hover{
     display: flex;
     justify-content: center;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 .cursos-card{
     background-color: white;
@@ -153,9 +157,10 @@ header .navegacao li a:hover{
 .escola{
     width: 100vw;
     display: flex;
-    
+    /* flex-wrap: wrap; */
     gap: 25rem;
     padding: 8rem 8rem 0;
+    justify-content: space-around;
 } 
 .escola__text{
     color: white;
