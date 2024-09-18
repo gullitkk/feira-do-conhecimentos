@@ -188,8 +188,7 @@ header .navegacao li a:hover{
     background-color: #f5f5f5;
     padding: 1px;
     display: flex;
-    flex-direction: column;
-    background-color: aqua;    
+    flex-direction: column;    
 }
 .contatos h1{    
     font-size: 5rem;
