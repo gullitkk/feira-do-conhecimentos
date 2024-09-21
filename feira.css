@@ -125,6 +125,7 @@ header .navegacao li a:hover{
     justify-content: center;
     gap: 3rem;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 .cursos-card{
     background-color: white;
