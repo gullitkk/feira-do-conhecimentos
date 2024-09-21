@@ -3,7 +3,7 @@ html{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .wrapperContainer-dark{
@@ -24,6 +24,9 @@ html{
 }
 .padding{
     padding-top: 10rem;
+}
+.margin-top{
+    margin: 3rem auto 0;
 }
 body{
     margin: 0;
@@ -114,6 +117,7 @@ header .navegacao li a:hover{
     font-size: 5rem;
     margin: 10rem 0 0 0;
     text-align: center;
+    margin-bottom: 3rem;
 }
 .cursos-conteiner{
     margin: auto;
@@ -131,6 +135,7 @@ header .navegacao li a:hover{
 .cursos-card img{
     display: block;
     width: 100%;
+    border-bottom: 0.1rem solid black;
 }
 .cursos-card__text{
     padding: 4rem 3rem;
@@ -161,12 +166,12 @@ header .navegacao li a:hover{
 /* fim do cursos */
 
 /* inicio da escola */
+
 .escola{
-    width: 100vw;
+    width: 100%;
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 25rem;
-    padding: 8rem 8rem 0;
+    padding: 1rem;
     justify-content: space-around;
 } 
 .escola__text{
@@ -174,7 +179,7 @@ header .navegacao li a:hover{
 }
 .escola__text h2{
     font-size: 4rem;
-    margin: 5rem 0;
+    width: 80%;
 }
 .escola__text p{
     font-size: 2rem;
